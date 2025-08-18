@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2 {
+    color: #1DB954; /* Spotify green */
+}
+table.data {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+table.data th, table.data td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table.data th {
+    background-color: #1DB954;
+    color: white;
+}
+pre.info-output {
+    background-color: #eee;
+    padding: 15px;
+    white-space: pre-wrap;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}

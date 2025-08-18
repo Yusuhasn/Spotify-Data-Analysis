@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spotify Data Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Spotify Data Analysis</h1>
+
+    <h2>Data Preview</h2>
+    <div> 
+        {{ data_table | safe }}
+    </div>
+
+    <h2>Summary Statistics</h2>
+    <div>
+        {{ stats_table | safe }}
+    </div>
+
+    <h2>Data Info</h2>
+    <pre> 
+        {{ info_output }}
+    </pre>
+
+    <h2>Streams Distribution</h2>
+     <img src="{{ url_for('static', filename='streams_histogram.png') }}" alt="Streams Histogram" />
+
+
+   
+</body>
+</html>
