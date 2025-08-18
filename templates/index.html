@@ -8,18 +8,18 @@
 
 </head>
 <body>
-  <h1>Spotify Data Analysis</h1>
+  <h1><b>Spotify Data Analysis</b></h1>
 
-  <h2>Data Preview</h2>
+  <h2><i>Data Preview</i></h2>
   <div>{{ data_table | safe }}</div>
 
-  <h2>Summary Statistics</h2>
+  <h2><i>Summary Statistics</i></h2>
   <div>{{ stats_table | safe }}</div>
 
-  <h2>Data Info</h2>
+  <h2><i>Data Info</i></h2>
   <pre class="info-output">{{ info_output }}</pre>
 
-  <h2>Streams Distribution</h2>
+  <h2><i>Streams Distribution</i></h2>
   <img src="{{ url_for('static', filename='streams_histogram.png') }}" alt="Streams Histogram" />
 </body>
 </html>
