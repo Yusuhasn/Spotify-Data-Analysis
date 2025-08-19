@@ -41,7 +41,7 @@ There wasn't enough data for streaming platforms such as Youtube and SoundCloud 
 
 How to Run:
 Clone the repo:
-git clone https://github.com/Yusuhasm/Spotify-Data-Analysis.git
+git clone https://github.com/Yusuhasn/Spotify-Data-Analysis.git
 Open in GitHub Codespaces or Jupyter/Colab.
 Run spotifydata.py or the notebook file to view analysis and plots.
 Future Work
